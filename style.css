@@ -1,30 +1,45 @@
-* {
+html,
+body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;      
 }
 
-body{
+body {
     background-color: #212324;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
     color: #FDFDFD;
-  }
+}
 
-  .info-header{
+.info-header {
     display: flex;
     align-items: center;
-  }
+}
 
 .img-logo {
     height: 45px;
-  }
+}
 
-  .login{
+.login {
     padding: 25px;
-  }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+footer a{
+    color: #FDFDFD;
+    text-decoration: none;
+}
