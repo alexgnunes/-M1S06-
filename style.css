@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;      
+}
+
+body{
+    background-color: #212324;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    color: #FDFDFD;
+  }
+
+  .info-header{
+    display: flex;
+    align-items: center;
+  }
+
+.img-logo {
+    height: 45px;
+  }
+
+  .login{
+    padding: 25px;
+  }
