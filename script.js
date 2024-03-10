@@ -82,3 +82,14 @@ function showDetails(index) {
     }
   });
 }
+
+function search() {
+  const value = document.getElementById("inputSearch").value;
+  products.forEach((product) => {
+    if (product.name === value) {
+      cardList.innerHTML = "";
+      showDetails(product.id);
+    }
+  });
+  document.getElementById("inputSearch").value = "";
+}
